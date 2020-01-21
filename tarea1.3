@@ -1,0 +1,16 @@
+# Este script baja 5 secuencias de Panthera oncate y señala cuántas veces existe la secuencia "TGCA" en cada una de ellas.
+cd ~/Desktop/BioinfinvRepro-master/Unidad1/Prac_Uni1#ubicamos en el directorio
+mkdir prove #generar carpeta para descarga
+#Se generan las descargas en archivos particulares 
+curl -s "https://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nucleotide&rettype=fasta&id=17674821" > prove/onca21.fasta
+curl -s "https://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nucleotide&rettype=fasta&id=17674820" > prove/onca20.fasta
+curl -s "https://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nucleotide&rettype=fasta&id=17674819" > prove/onca19.fasta
+curl -s "https://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nucleotide&rettype=fasta&id=17674818" > prove/onca18.fasta
+curl -s "https://www.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nucleotide&rettype=fasta&id=17674817" > prove/onca17.fasta
+#cuenta para cada uno el no. de TGCA
+grep -oE "\TGCA" prove/onca21.fasta | wc -l
+grep -oE "\TGCA" prove/onca20.fasta | wc -l
+grep -oE "\TGCA" prove/onca19.fasta | wc -l
+grep -oE "\TGCA" prove/onca18.fasta | wc -l
+grep -oE "\TGCA" prove/onca17.fasta | wc -l
+
