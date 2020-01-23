@@ -1,0 +1,43 @@
+---
+
+# Hacer objetos a partir de archivos raster
+
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Se seleccina el directorio de trabajo (en este caso particular una unidad extraible).
+
+```{r}
+setwd("/media/emiliano/TOSHIBA EXT/Agave")
+
+```
+### Se llaman las librerias necesarias para ejecutar las acciones (`library(paquete)`)
+
+```{r}
+library("raster")
+library("rgeos")
+library("maptools")
+library("rgdal")
+
+```
+
+Se generan los objetos a partir de los archivos <span style="color:blue">."tif"</span> con la funsión los archivos previamente situados en  <span style="color:red">"/media/emiliano/TOSHIBA EXT/Agave"</span> con la funsión `raster`
+
+```{r}
+Ln<-raster("/media/emiliano/TOSHIBA EXT/Agave/pendula_Presente.tif")
+LnLig<-raster("/media/emiliano/TOSHIBA EXT/Agave/pendula_Pasado21.tif")
+LnLmg<-raster("/media/emiliano/TOSHIBA EXT/Agave/pendula_Pasado130.tif")
+
+
+```
+
+Listo! ahora tienes tres objetos:   
+<span style="color:green">."Ln"</span> 
+<span style="color:green">."LnLig"</span>
+<span style="color:green">."LnLmg"</span>
+con los que podrás trabajar en la pataforma 
+
