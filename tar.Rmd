@@ -1,0 +1,53 @@
+---
+title: "tarea3_4"
+author: "Cesar Emiliano Escalona Prado"
+date: "01/26/2020"
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+Este script resuleve las siguientes tares:
+1) Hace un barplot de reads por muestra (datos ordenados por Libreria)
+2) Pone títulos al grafico y a cada eje
+3) Colorea cada librería cambiando la paleta de colores
+
+A partir de los datos guardados en `PracUni3/ejemplosgenerales/data/reads.txt`
+## 1)Cargar librerias y generar un objeto (reads) a partir de archivo .txt
+
+
+```{r}
+
+reads<-read.delim("../data/reads.txt")
+
+library(ggplot2)
+```
+
+## Reordenar los valores por factor
+
+
+```{r}
+reads$sample<-factor(reads$sample, levels=reads$sample[order(1:length(reads$sample))])
+```
+
+## Definr paleta de colores
+se geenras un objeto a parit del vector "colorines", que incluye 6 colores en codigo `HexCode#RRGGBB`
+
+```{r}
+colorines<-c("#800000","#FA8072","#66CDAA","#98FB98","#20B2AA","#FF1493	")
+```	
+ 
+## Generar plot
+`p`es un objeto que genera un ggplot
+se agtregaron lon nombres de los ejes (xlab/ylab) y  se incluyeron las etiquetas para cada muestra, 
+los colores se definen a paritr de `scale_fill_manual` con el objeto "colorines" previamente generado
+```{r}
+p <- ggplot(data=reads, aes(x=sample, y=nreads, fill=Library)) + geom_bar(stat="identity") 
+p +  theme(axis.text.x = element_text(angle = 90, hjust = 0, size=5))+ylab("No. Lecturas") + xlab("Muestra")+scale_fill_manual(values=colorines)
+
+```
+
+
