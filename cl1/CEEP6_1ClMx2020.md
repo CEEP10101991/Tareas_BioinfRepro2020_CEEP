@@ -30,7 +30,7 @@
 
 `zcat ../181004_curso_calidad_datos_NGS/fastq_raw/S16_R1.fastq.gz  | sed -n '9,12p;13q' > lines3_S16_R1.fastq`
 
-`less Read3_S16_R1.fastq`
+`less lines3_S16_R1.fastq`
 ##### Desgloce ID
 ###### [@M03564]Instrumento:
 ###### [2]RunId:
@@ -59,9 +59,9 @@
 `less Head40_S16_R1.fastq`
 ##### C)
 `zcat ../181004_curso_calidad_datos_NGS/fastq_filter/S16_R1_filter.fastq.gz  | sed -n '9,12p;13q' > 
-.fastq`
+lines3filtrado_S16_R1.fastq`
 
-`less Read3filtrado_S16_R1.fastq`
+`less lines3filtrado_S16_R1.fastq`
 ##### Desgloce ID
 ###### [@M03564]Instrumento:
 ###### [2]RunId:
@@ -93,9 +93,9 @@
 `zcat ../181004_curso_calidad_datos_NGS/fastq_raw/S16_R2.fastq.gz | head -40 > Head40_S16_R2.fastq`
 `less Head40_S16_R2.fastq`
 ##### C)
-`zcat ../181004_curso_calidad_datos_NGS/fastq_raw/S16_R2.fastq.gz  | sed -n '9,12p;13q' > lines3_S16_R1.fastq`
+`zcat ../181004_curso_calidad_datos_NGS/fastq_raw/S16_R2.fastq.gz  | sed -n '9,12p;13q' > lines3_S16_R2.fastq`
 
-`less Read3_S16_R2.fastq`
+`less lines3_S16_R2.fastq`
 ##### Desgloce ID
 ###### [@M03564]Instrumento:
 ###### [2]RunId:
