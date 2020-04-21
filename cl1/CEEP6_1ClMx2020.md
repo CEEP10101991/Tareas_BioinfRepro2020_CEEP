@@ -4,7 +4,7 @@
 `ssh -Y bioinfo1@genoma.med.uchile.cl`
 
 
-##### Cree un Directorio con su nombre. Ejemplo
+##### Creé un Directorio
 
 >mkdir Cescalona_2020
 >>cd Cescalona_2020
@@ -163,3 +163,5 @@ lines3filtrado_S16_R1.fastq`
 
 ##### 3) En una nueva ventana de la terminal
 `scp bioinfo1@genoma.med.uchile.cl:Cescalona_2020/*`
+
+
