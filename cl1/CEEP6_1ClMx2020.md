@@ -39,8 +39,11 @@
 `less Head40_S16_R1.fastq`
 ##### C)
 >zcat ../181004_curso_calidad_datos_NGS/fastq_filter/S16_R1_filter.fastq.gz  | sed -n '9,12p;13q' > lines3filtrado_S16_R1.fastq
+
 `less Read3filtrado_S16_R1.fastq`
+
 #####################################R2##############################################
+
 ### 1)
 ###### Crudo
 #### A)
