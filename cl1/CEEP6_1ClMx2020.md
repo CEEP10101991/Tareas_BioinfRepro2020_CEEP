@@ -31,7 +31,18 @@
 `zcat ../181004_curso_calidad_datos_NGS/fastq_raw/S16_R1.fastq.gz  | sed -n '9,12p;13q' > lines3_S16_R1.fastq`
 
 `less Read3_S16_R1.fastq`
-###### Desgloce ID------>[@M03564]Instrumento:[2]RunId:[000000000-D29D3]FlowCellId:[1]CarrilFlowCell:[1101]NoTituloFlowCellyCarril:[16471]CordenadaClusterX:[1371]CordenadaClusterY [1]MiembroPar:N[NoFiltroado]:[0]CtrlBits(-)ON:[CAGATCCA+TAGACCTA]Secuencia Indice'
+##### Desgloce ID
+###### [@M03564]Instrumento:
+###### [2]RunId:
+###### [000000000-D29D3]FlowCellId:
+###### [1]CarrilFlowCell:
+###### [1101]NoTituloFlowCellyCarril:
+###### [16471]CordenadaClusterX:
+###### [1371]CordenadaClusterY 
+###### [1]MiembroPar:
+###### [N]Filtroado (de otroa manera):
+###### [0]CtrlBits(-)ON:
+###### [CAGATCCA+TAGACCTA']Secuencia Indice
 ###### Identificador---->@M03564:2:000000000-D29D3:1:1101:16471:1371 1:N:0:CAGATCCA+TAGACCTA'
 ###### Secuencia-------->TCTATTCCTCGCAGATCTGCAAGGTGCGAGGGGGCGCCCCGGGACTTGTGGGGATTCAGCTGGCACGGCCTGGGCAGGGGTCTGCTTGGAGGTCGCGGTGAAGGCTGAGGAGTGGTTTGGGGTCCAGGTCTCGGGAGTGGTGGGGTTGGCTTAGGGCTCAGGATCAGAACTTCAGTGGAGGATGGCTCGGGGGTAGGGGTATAGTTGGGGTCTGGGTTGGGGTGCCAGGTCACGCTTGGGGTACCTGCCGG
 ###### sequenciaYid----->+
@@ -50,7 +61,18 @@
 `zcat ../181004_curso_calidad_datos_NGS/fastq_filter/S16_R1_filter.fastq.gz  | sed -n '9,12p;13q' > lines3filtrado_S16_R1.fastq`
 
 `less Read3filtrado_S16_R1.fastq`
-
+##### Desgloce ID
+###### [@M03564]Instrumento:
+###### [2]RunId:
+###### [000000000-D29D3]FlowCellId:
+###### [1]CarrilFlowCell:
+###### [1101]NoTituloFlowCellyCarril:
+###### [14841]CordenadaClusterX:
+###### [5591]CordenadaClusterY 
+###### [1]MiembroPar:
+###### [N]Filtroado(de otra manera):
+###### [0]CtrlBits(-)ON:
+###### [CAGATCCA+TAGACCTA']Secuencia Indice
 ###### Identificador---->@M03564:2:000000000-D29D3:1:1101:14841:5591 1:N:0:CAGATCCA+TAGACCTA
 ###### Secuencia-------->TAAAATGTGCCAAGAACTGTGCTACTCAAGCACCAGGTAATGAGTGATAAACCAAACCCATGCAAAAGGACCCCATATAGCACAGGTACATGCAGGCACCTTACCATGGAAGCCATTGTCCTCTGTCCAGGCATCTGGCTGCACAACCACAATTGGGTGGACACCCTGGATCCCCAGGAAGGAAAGAGCATTCAAAGTGTCAAAGTAGGACTACTGGAACTGTCACT
 ###### sequenciaYid-----> +
@@ -72,7 +94,18 @@
 ##### C)
 `zcat ../181004_curso_calidad_datos_NGS/fastq_raw/S16_R2.fastq.gz  | sed -n '9,12p;13q' > lines3_S16_R1.fastq`
 `less Read3_S16_R2.fastq`
-
+##### Desgloce ID
+###### [@M03564]Instrumento:
+###### [2]RunId:
+###### [000000000-D29D3]FlowCellId:
+###### [1]CarrilFlowCell:
+###### [1101]NoTituloFlowCellyCarril:
+###### [16471]CordenadaClusterX:
+###### [1371]CordenadaClusterY 
+###### [2]MiembroPar:
+###### [N]Filtroado(de otra manera):
+###### [0]CtrlBits(-)ON:
+###### [CAGATCCA+TAGACCTA']Secuencia Indice
 ###### Identificador---->@M03564:2:000000000-D29D3:1:1101:16471:1371 2:N:0:CAGATCCA+TAGACCTA
 ###### Secuencia-------->GTGCAGAGAGGATCCCAGGATAATCCGGCAGGTACCCCAAGCGTGACCTGGCACCCCAACCCAGACCCCAACTATAACCCTACCCCCGAGCCATCCTCCACTGAAGTTCTGATCCTGAGCCCTAAGCCAACCCCACCACTCCCGAGACCTGGACCCCAAACCACTCCTCAGCCTTCACCGCGACCTCCAAGCAGACCCCTGCCCAGGCCGCGCCAGCTGAATCCCCCCAAGTCCCGGGGCGCCCCCTCGCC
 ###### sequenciaYid----->+
@@ -92,6 +125,18 @@
 ##### C)
 `zcat ../181004_curso_calidad_datos_NGS/fastq_filter/S16_R2_filter.fastq.gz  | sed -n '9,12p;13q' > lines3filtrado_S16_R2.fastq`
 `less Read3filtrado_S16_R2.fastq`
+##### Desgloce ID
+###### [@M03564]Instrumento:
+###### [2]RunId:
+###### [000000000-D29D3]FlowCellId:
+###### [1]CarrilFlowCell:
+###### [1101]NoTituloFlowCellyCarril:
+###### [14841]CordenadaClusterX:
+###### [5591]CordenadaClusterY 
+###### [2]MiembroPar:
+###### [N]Filtroado(de otra manera):
+###### [0]CtrlBits(-)ON:
+###### [CAGATCCA+TAGACCTA']Secuencia Indice
 
 ###### Identificador---->@M03564:2:000000000-D29D3:1:1101:14841:5591 2:N:0:CAGATCCA+TAGACCTA
 ###### Secuencia-------->AGTGACAGTTCCAGTAGTCCTACTTTGACACTTTGAATGCTCTTTCCTTCCTGGGGATCCAGGGTGTCCACCCAATTGTGGTTGTGCAGCCAGATGCCTGGACAGAGGACAATGGCTTCCATGGTAAGGTGCCTGCATGTACCTGTGCTATATGGGGTCCTTTTGCATGGGTTTGGTTTATCACTCATTACCTGGTGCTTGAGTAGCACAGTTCTTGGCACATTTTA
