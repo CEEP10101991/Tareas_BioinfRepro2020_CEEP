@@ -1,6 +1,6 @@
-my question surged from homework [6.1](https://github.com/u-genoma/BioinfinvRepro/blob/master/Unidad6/Tutorial_Control_de_calidad_de_lecturas_NGS.md, this exercise explicitly asked “How to count fastq reads ussing Unix commands?”
+my question surged from homework [6.1](https://github.com/u-genoma/BioinfinvRepro/blob/master/Unidad6/Tutorial_Control_de_calidad_de_lecturas_NGS.md), this exercise explicitly asked “How to count fastq reads ussing Unix commands?”
 
-For answering this question I found the next [link] (https://www.biostars.org/p/139006/)at Biostars
+For answering this question I found the next [link](https://www.biostars.org/p/139006/) at Biostars
 
 ```
 # When the file is saved as .fastq  
